@@ -38,7 +38,7 @@ CREATE TABLE `pet` (
 
 LOCK TABLES `pet` WRITE;
 /*!40000 ALTER TABLE `pet` DISABLE KEYS */;
-INSERT INTO `pet` VALUES ('Fluffy','Harold','cat','f','1993-02-04',NULL),('Claws','Gwen','cat','m','1994-03-17',NULL),('Buffy','Harold','dog','f','1989-05-13',NULL),('Fang','Benny','dog','m','1990-08-27',NULL),('Bowser','Diane','dog','m','1989-08-31','1995-07-29'),('Chirpy','Gwen','bird','f','1998-09-11',NULL),('Chirpy','Gwen','bird','f','1998-09-11',NULL),('Whistler','Gwen','bird',NULL,'1997-12-09',NULL),('Slim','Benny','snake','m','1996-04-29',NULL),('Puffball','Diane','hamster','f','1999-03-30',NULL);
+INSERT INTO `pet` VALUES ('Fluffy','Harold','cat','f','1993-02-04',NULL),('Claws','Gwen','cat','m','1994-03-17',NULL),('Buffy','Harold','dog','f','1989-05-13',NULL),('Fang','Benny','dog','m','1990-08-27',NULL),('Bowser','Diane','dog','m','1989-08-31','1995-07-29'),('Chirpy','Gwen','bird','f','1998-09-11',NULL),('Whistler','Gwen','bird',NULL,'1997-12-09',NULL),('Slim','Benny','snake','m','1996-04-29',NULL),('Puffball','Diane','hamster','f','1999-03-30',NULL);
 /*!40000 ALTER TABLE `pet` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -51,4 +51,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2024-05-30 10:54:04
+-- Dump completed on 2024-05-30 19:16:35
